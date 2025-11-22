@@ -372,7 +372,7 @@
             
             // Task Rewards
             TASK_TG_REWARD: 0.50,
-            TASK_YT_REWARD: 1.00,
+            TASK_YT_REWARD: 1260.00,
 
             // Firebase Config (Firebase Console -> Project Settings -> General -> CDN থেকে কপি করুন)
             FIREBASE: {
@@ -386,7 +386,7 @@
   measurementId: "G-637R6540QW"      
             },
 
-            SUPPORT_USERNAME: "SupportAdmin",
+            SUPPORT_USERNAME: "meghla006",
             IP_RESTRICTION: true
         };
 
@@ -669,7 +669,7 @@
         }
 
         document.getElementById('copy-ref-btn').addEventListener('click', () => {
-            const link = `https://t.me/${CONFIG.BOT_USERNAME}?start=${currentUser.id}`;
+            const link = `https://t.me/${CONFIG.BOT_USERNAME}?startapp=${currentUser.id}`;
             navigator.clipboard.writeText(link);
             showToast("রেফারাল লিংক কপি হয়েছে!", "success");
         });
